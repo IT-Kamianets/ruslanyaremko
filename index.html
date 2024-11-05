@@ -5,68 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Про мене - Яремко Руслан</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
         }
-        header, footer {
-            background-color: #333;
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        header {
+            background-color: #4a90e2;
             color: #fff;
-            padding: 10px;
+            padding: 20px;
             text-align: center;
+        }
+        header h1 {
+            font-size: 24px;
+            font-weight: bold;
         }
         main {
             padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #5a67d8;
         }
         section {
             margin-bottom: 20px;
+        }
+        section h2 {
+            font-size: 20px;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+        section p, section ul {
+            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #4a90e2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Про мене - Яремко Руслан Олегович</h1>
-</header>
+<div class="container">
+    <header>
+        <h1>Про мене - Яремко Руслан Олегович</h1>
+    </header>
 
-<main>
-    <section>
-        <h2>Про мене</h2>
-        <p>Мене звати Яремко Руслан Олегович, студент групи KN1-B21. Навчаюсь в Кам'янець-Подільському національному університеті імені Івана Огієнка, спеціальність - Комп'ютерні науки. Не люблю сидіти на одному місці, люблю пробувати щось новеньке.</p>
-    </section>
+    <main>
+        <section>
+            <h2>Про мене</h2>
+            <p>Мене звати Яремко Руслан Олегович, студент групи KN1-B21. Навчаюсь в Кам'янець-Подільському національному університеті імені Івана Огієнка, спеціальність - Комп'ютерні науки. Не люблю сидіти на одному місці, люблю пробувати щось новеньке.</p>
+        </section>
 
-    <section>
-        <h2>Навички</h2>
-        <ul>
-            <li>Програмування на мовах: C++, Python</li>
-            <li>Веб-розробка: HTML, CSS</li>
-            <li>Технологія контролю версій: Git</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Навички</h2>
+            <ul>
+                <li>Програмування на мовах: C++, Python</li>
+                <li>Веб-розробка: HTML, CSS</li>
+                <li>Технологія контролю версій: Git</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Освіта</h2>
-        <p>2021-2025: Кам'янець-Подільський національний університет імені Івана Огієнка, бакалавр з Комп'ютерних наук.</p>
-    </section>
+        <section>
+            <h2>Освіта</h2>
+            <p>2021-2025: Кам'янець-Подільський національний університет імені Івана Огієнка, бакалавр з Комп'ютерних наук.</p>
+        </section>
 
-    <section>
-        <h2>Контакти</h2>
-        <p>Електронна пошта: <a href="mailto:kn1b21.yaremko@kpnu.edu.ua">kn1b21.yaremko@kpnu.edu.ua</a></p>
-        <p>GitHub: <a href="https://github.com/RuslanYaremko" target="_blank">RuslanYaremko</a></p>
-    </section>
-</main>
+        <section>
+            <h2>Контакти</h2>
+            <p>Електронна пошта: <a href="mailto:kn1b21.yaremko@kpnu.edu.ua">kn1b21.yaremko@kpnu.edu.ua</a></p>
+            <p>GitHub: <a href="https://github.com/RuslanYaremko" target="_blank">RuslanYaremko</a></p>
+        </section>
+    </main>
 
-<footer>
-    <p>&copy; 2024 Яремко Руслан Олегович</p>
-</footer>
+    <footer>
+        <p>&copy; 2024 Яремко Руслан Олегович</p>
+    </footer>
+</div>
 
 </body>
 </html>
